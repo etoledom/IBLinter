@@ -23,7 +23,8 @@ public struct Rules {
             MisplacedViewRule.self,
             ForceToEnableAutoLayoutRule.self,
             DuplicateConstraintRule.self,
-            StoryboardViewControllerId.self
+            StoryboardViewControllerId.self,
+            TextAlignmentRule.self
         ]
     }
 
@@ -31,7 +32,8 @@ public struct Rules {
         return [
             CustomClassNameRule.self,
             ForceToEnableAutoLayoutRule.self,
-            DuplicateConstraintRule.self
+            DuplicateConstraintRule.self,
+            TextAlignmentRule.self
         ]
     }
 
